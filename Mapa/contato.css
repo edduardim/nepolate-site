@@ -1,0 +1,141 @@
+/* achei que esta fonte iria combinar com a estetica do site, disponivel no site Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/*declarando todas as cores que serão utilizadas nessa pagina*/
+:root{
+    --color-white: #fff;
+    --color-pink1: #ff8bcb;
+    --color-pink2: #fcb8dd;
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--color-pink1); 
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1; 
+}
+
+.cabecalho img {
+  width: 40px;
+  height: auto;
+}
+.cabecalho{
+    font-size: 35px;
+  text-transform: uppercase;
+  justify-content: center;
+  letter-spacing: 2px;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  color: var(--color-white);
+  gap: 8px;
+  font-weight: bold; 
+}
+body {
+      font-family: "Poppins";
+      background-color: var(--color-pink2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .contato-container {
+      text-align: center;
+    }
+
+    .icones {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+    }
+
+    .icone {
+      text-align: center;
+    }
+
+    .icone img {
+      width: 200px;
+      transition: transform 0.3s ease;
+    }
+    .icone2 img {
+      width: 180px;
+      transition: transform 0.3s ease;
+    }
+
+    .icone img:hover {
+      transform: scale(1.1);
+    }
+
+    .icone2 img:hover {
+      transform: scale(1.1);
+    }
+
+    .icone p {
+      margin-top: 8px;
+      font-size: 25px;
+      color: var(--color-white);
+    }
+
+    .icone2 p {
+      margin-top: 27px;
+      font-size: 25px;
+      color: var(--color-white);
+    }
+
+    footer{
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--color-pink1); 
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1; 
+    }
+
+    /*configurando para telas menores*/
+@media (max-width: 999px){
+.cabecalho{
+        font-size: 20px;
+    }
+
+    .cabecalho img {
+  width: 30px;
+  height: auto;
+}
+.contato-container {
+      text-align: center;
+    }
+
+    .icones {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+    }
+
+ .icone img {
+    
+      width: 100px;
+      transition: transform 0.3s ease;
+    }
+    .icone2 img {
+      width: 90px;
+      transition: transform 0.3s ease;
+    }
+
+    .icone p {
+      margin-top: 8px;
+      font-size: 25px;
+      color: var(--color-white);
+    }
+
+    .icone2 p {
+      margin-top: 19px;
+      font-size: 25px;
+      color: var(--color-white);
+    }
+}
