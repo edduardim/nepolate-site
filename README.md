@@ -1,10 +1,3 @@
-formulario.css
-formulario.js
-formularioDeContato.html
-contato.css
-contato.html
+
 inicio.html
-mobile.js
-produtos.html
-sobre.html
-style.css
+
